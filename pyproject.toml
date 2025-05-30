@@ -1,0 +1,10 @@
+[project]
+name = "github-stats"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pygithub>=2.6.1",
+    "yaspin>=3.1.0",
+]

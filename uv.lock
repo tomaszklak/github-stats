@@ -107,12 +107,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "pygithub" },
+    { name = "requests" },
     { name = "yaspin" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "pygithub", specifier = ">=2.6.1" },
+    { name = "requests", specifier = ">=2.32.3" },
     { name = "yaspin", specifier = ">=3.1.0" },
 ]
 
